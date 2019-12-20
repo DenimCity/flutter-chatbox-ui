@@ -8,10 +8,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Denim Chat Box',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      title: 'Denim Chat UI',
+      debugShowCheckedModeBanner: false,
+      theme:
+          ThemeData(primaryColor: Colors.red, accentColor: Color(0xFFFEF9EB)),
       home: HomeScreen(),
     );
   }
