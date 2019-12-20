@@ -1,3 +1,4 @@
+import 'package:chat_box/widgets/category_selector.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -27,6 +28,9 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () {},
           )
         ],
+      ),
+      body: Column(
+        children: <Widget>[CategorySelector()],
       ),
     );
   }
