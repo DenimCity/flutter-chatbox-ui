@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
       title: 'Denim Chat UI',
       debugShowCheckedModeBanner: false,
       theme:
-          ThemeData(primaryColor: Colors.red, accentColor: Color(0xFFFEF9EB)),
+          // Color(0xFFFEF9EB)
+          ThemeData(primaryColor: Colors.red, accentColor: Colors.green),
       home: HomeScreen(),
     );
   }
